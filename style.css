@@ -1,0 +1,249 @@
+body{
+  font-family:verdana;
+  padding: 0;
+  margin: 0;
+
+}
+#headerss{
+  position:sticky;
+  top:0;
+  background-color:#fff;
+  Z-index:999;
+}
+#hero{
+  padding: 50px 0 40px 0;
+}
+.hero{
+  padding:10px 10% 10px !important;
+
+}
+.msg{
+  padding: 0 5px 0;
+}
+.heroimg{
+  width:85%;
+}
+.heroimg:hover{
+  width:86%;
+  transition:linear 0.2s;
+}
+.linkmenu{
+  font-weight: bold;
+  letter-spacing: 0.5px
+}
+.headline  {
+  padding:5% 2% 2% 15%;
+  color:#49111c;
+  font-family:cursive;
+  font-size: 3rem;
+}
+.cookhead{
+  color:#49111c;
+  font-family:cursive;
+  font-size: 3rem;
+}
+.pheadline{
+  padding-left:15%;
+  color:#49111c;
+  font-family:cursive;
+}
+.buttons{
+  margin-top: 15px;
+  margin-left:15%;
+}
+#menu{
+
+  background-color: #49111C;
+  padding: 3%;
+  padding-bottom:7%;
+}
+.ourmenu{
+  padding: 5%;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.menufull{
+  text-align: center;
+  padding: 50px 0;
+}
+.menufull-right{
+  text-align: left;
+}
+.menuimg
+{
+  width: 70%;
+  height: 100%;
+  border-radius: 50%;
+}
+.mouse:hover{
+  width:50%;
+  transition:linear;
+  cursor:pointer;
+  color:black;
+}
+.menuimg:hover{
+
+  transition: linear 0.25s;
+}
+.menutxt{
+  color: #fff;
+  padding-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+}
+
+.cookhead{
+
+   text-align: center;
+
+}
+.chef{
+  width: 80%;
+}
+
+
+
+.avengers , .aboutavengers{
+  padding-left: 30px;
+}
+.avengers{
+  color:#fff;
+  font-family:cursive;
+  font-style: 2rem;
+  margin: 50% auto 0 auto;
+  padding-top: 20px;
+}
+.aboutavengers{
+  margin: 2% auto;
+  word-wrap: break-word;
+  color: #fff;
+  padding: 0 30px 30px 30px;
+}
+.about-chef{
+    background-color:#49111c;
+
+}
+.box-container-right
+{
+  text-align-right !important;
+}
+
+#test{
+  background-color: #49111c;
+  padding:5%;
+}
+
+.testy{
+  text-align: center;
+  color: #fff;
+  padding:4%;
+  font-family:cursive;
+}
+.carousel-item
+{
+  padding-top: 2%;
+  text-align: center;
+  color: #fff;
+}
+.carousel-inner{
+  height:300px;
+}
+.wh{
+  width:70px;
+  border-radius:50%;
+  margin-bottom:20px;
+}
+#contact{
+  padding:5%;
+}
+.contact-head{
+  font-family:cursive;
+}
+#footer{
+  background-color:#198745;
+}
+.footer-logo-para{
+  color:#fff;
+  font-family:cursive;
+}
+.footer-list{
+  color:#ededed;
+  font-family:cursive;
+
+}
+.copyright-text{
+  background-color:#156e3a;
+
+  color:#ededed;
+}
+.contact-details{
+  display:inline;
+}
+.icon-contact{
+  font-size:25px;
+  padding-right:8px;
+}
+.stickii{
+  position:sticky;
+  top:0;
+
+}
+.footer-link{
+  text-decoration:none;
+  color:#ffffff;
+  
+}
+
+
+
+
+
+
+
+
+@media (max-width: 620px) {
+  .herotext{
+    padding:5% !important;
+  }
+  .headline, .cookhead{
+    font-size:40px;
+
+  }
+  .pheadline{
+    font-size:20px;
+  }
+
+  .headline , .pheadline,  .herobutton, .cookhead{
+    text-align:center;
+    padding:0 0 25px 0 !important;
+  }
+.buttons{
+  margin:0;
+}
+.btn{
+  font-size:1.3rem !important;
+  padding:3% !important;
+}
+.ourmenu{
+  font-size:32px;
+}
+.menu-img{
+  padding-bottom:25%;
+}
+.menufull{
+  padding:0 !important;
+
+}
+.avengers{
+  margin:0;
+}
+.menufull-right,.mobile-footer,.details-contact{
+  text-align:center;
+}
+
+
+
+
+}
